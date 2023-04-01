@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class MyClass {
+export default class MyClass {
     constructor(name) {
         this._name = name;
     }
@@ -8,4 +6,3 @@ class MyClass {
         return `Hello, ${this._name}!`;
     }
 }
-exports.default = MyClass;
