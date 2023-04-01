@@ -1,3 +1,3 @@
 export function myFunction(name) {
-    return `Hello, ${name}!`;
+  return `Hello, ${name}!`;
 }
